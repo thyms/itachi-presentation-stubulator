@@ -4,4 +4,4 @@ deploy:
   api_key:
     secure: GS3Rap2PqZG1WONLfRwM2mxEhtJWPirpFLbk1zCbHPK/4Ax/StqioQXxn8hRSjNf38ptr1s9JsdmFW8V2NlgVLcPNcu9/+CNeuY4XwokvLL4PnNYQqHOOUxHHfeGeOe7NU0JmnnQdHO4gDqwbMDQWJ7Opj33icK9Vdb2KXoMfHA=
   app:
-    develop: itachi-presentation-stubulator01
+    develop: itachi-presentation-stub01

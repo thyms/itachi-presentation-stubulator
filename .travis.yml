@@ -4,4 +4,4 @@ deploy:
   api_key:
     secure: lwYATrHt3T4tdbuAwJ6TkLM9Pn04RAsHoAZztIS5IV11zLx00Dy8JUKLmip/bdQ3OhdJwT4qLBloru/7ZM1ILuZ1VI8i4mWbmKQ38e3f1HSwkywymK669/nqQu0ibJh0v1enumiLsNBqb4CjMzWTkh1JoG5EzYn25pU/Q1A1cT0=
   app:
-    develop: eva-presentation-stubulator01
+    develop: itachi-presentation-stubulator01

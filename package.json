@@ -1,7 +1,7 @@
 {
   "name": "presentation-stubulator",
   "version": "0.0.1",
-  "description": "Stubulator for presentation layer of eva project.",
+  "description": "Stubulator for presentation layer of itachi project.",
   "scripts": {
     "start": "node server.js"
   },

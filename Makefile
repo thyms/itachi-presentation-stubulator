@@ -12,6 +12,13 @@ test-app-ci:
 setup-app:
 	npm install
 
+git-pre-commit:
+	@current_branch=$$(git rev-parse --abbrev-ref HEAD) && \
+	if [ $$current_branch = 'develop' ]; then \
+		make test-app && \
+		heroku config:add COMMIT_HASH=$$(git rev-parse HEAD) --app itachi-presentation-stub01; \
+	fi
+
 deploy-app:
 	@commit_hash=$$(git rev-parse HEAD) && \
   if [ $$ENV = 'prod01' ]; then \

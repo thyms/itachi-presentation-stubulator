@@ -2,6 +2,8 @@ script: make test-app-ci
 deploy:
   provider: heroku
   api_key:
-    secure: pGDLAfZRvNq2WjT4UhsLFzSXqSOX3pkZidTFxxiRZ6wt1B7cupJRR5o7mBoDKZ6M/4D+Da0Fux0qn+PqNGVVg+q4z0I7I+lHXoKaCqfvUw3EwGI/sjg8cnhlx4WsnhtCrfvgvJNz5B7QhaDcEFoUBp0DT/Dbsmcxxjv4djwESJ0=
-  app:
-    develop: itachi-presentation-stub01
+    secure: g0l9+F/W8oxuwCpr2kVBVR3MP30UYAgTpmgfR+HpTY9mV5YGHjxcA5HEAtmCFnwjUkKyDBw4SxdevLIfp7MybxgIh+1Y7BMGDMWPrcVD3JKB2B/5cCaZXixIBAGuQaLAunIgX281nrlwcnvOvAdihgL7+ljrI+Lb4HmnPyLZ4jc=
+  app: itachi-presentation-stub01
+  on:
+    repo: thyms/itachi-presentation-stubulator
+    branch: develop
